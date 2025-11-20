@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { CreditCard, Plus, Calendar, Building, CheckCircle, AlertCircle, Wallet, ChevronDown, ChevronUp, Trash2 } from 'lucide-react';
+import { CreditCard, Plus, Calendar, Building, CheckCircle, AlertCircle, ChevronDown, ChevronUp, Trash2 } from 'lucide-react';
 import { Loan, LoanInstallment, Account } from '../types';
 
 interface LoanListProps {
