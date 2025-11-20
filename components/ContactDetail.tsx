@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
-import { ArrowLeft, Phone, Mail, FileText, Plus, Wallet, Trash2, Package, CreditCard, Building, Banknote, Calendar, Hash, Edit, Save, X } from 'lucide-react';
+import { ArrowLeft, Phone, Mail, FileText, Plus, Wallet, Trash2, CreditCard, Building, Banknote, Calendar, Edit, Save, X } from 'lucide-react';
 import { Contact, Invoice, TransactionType, Status, Product, InvoiceItem, Account, PaymentMethod, Check } from '../types';
 
 interface ContactDetailProps {
