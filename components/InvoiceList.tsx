@@ -1,5 +1,6 @@
+
 import React, { useState } from 'react';
-import { Plus, Search, Filter, FileText, Loader2, Sparkles, Receipt, Wallet, Trash2, CheckCircle, Clock, Calendar, User, ChevronRight } from 'lucide-react';
+import { Plus, Search, Filter, Loader2, Sparkles, Receipt, Trash2, CheckCircle, Clock, Calendar } from 'lucide-react';
 import { Invoice, Status, TransactionType, Contact, Account, Product, InvoiceItem } from '../types';
 import { generateInvoiceDescription } from '../services/geminiService';
 
