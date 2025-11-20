@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { ScrollText, Calendar, User, ArrowUpRight, ArrowDownRight, Building, Hash, CheckCircle, XCircle, Percent, Landmark, Trash2 } from 'lucide-react';
+import { ScrollText, Calendar, User, ArrowUpRight, ArrowDownRight, Building, Hash, CheckCircle, XCircle, Percent, Trash2 } from 'lucide-react';
 import { Check, CheckStatus, Account } from '../types';
 
 interface CheckListProps {
