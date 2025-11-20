@@ -561,7 +561,7 @@ const App: React.FC = () => {
       case 'customers': return <ContactList title="Müşteriler" type="Customer" contacts={contacts.filter(c => c.type === 'Customer')} onSelect={setSelectedContact} onAdd={handleAddContact} onDelete={handleDeleteContact} />;
       case 'suppliers': return <ContactList title="Tedarikçiler" type="Supplier" contacts={contacts.filter(c => c.type === 'Supplier')} onSelect={setSelectedContact} onAdd={handleAddContact} onDelete={handleDeleteContact} />;
       case 'products': return <ProductList products={products} invoices={invoices} onAdd={handleAddProduct} onUpdate={handleUpdateProduct} onDelete={handleDeleteProduct} />;
-      case 'settings': return <SettingsView data={{ invoices, contacts, products, accounts, transactions: cashTransactions, checks, loans }} onRestore={(data) => {
+      case 'settings': return <SettingsView data={{ invoices, contacts, products, accounts, transactions: cashTransactions, checks, loans }} onRestore={(_data) => {
           // Restore logic from file
           // In a real implementation, we would override local storage here
           alert("Yedek yükleme simülasyonu başarılı. Sayfayı yenileyerek verileri görebilirsiniz.");
