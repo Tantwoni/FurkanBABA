@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { Wallet, ArrowUpRight, ArrowDownRight, CreditCard, Building, Banknote, Plus, RefreshCw, ArrowRight, X, Edit, Save, Calendar, User, Trash2 } from 'lucide-react';
+import { Wallet, CreditCard, Building, Banknote, Plus, RefreshCw, ArrowRight, X, Edit, Save, Calendar, User, Trash2 } from 'lucide-react';
 import { CashTransaction, TransactionType, Account, AccountType } from '../types';
 
 interface CashBankProps {
@@ -408,7 +408,7 @@ export const CashBank: React.FC<CashBankProps> = ({ accounts, transactions, onAd
                             {accountTransactions.map(trx => (
                                 <tr key={trx.id} className="hover:bg-slate-50">
                                     <td className="px-6 py-4 text-slate-600">{trx.date}</td>
-                                    <td className="px-6 py-4 font-medium text-slate-800">{trx.contactName || '-'}</td>
+                                    <td className="px-6 py-4 font-medium text-slate-800">{trx.accountName || '-'}</td>
                                     <td className="px-6 py-4 text-slate-600">{trx.description}</td>
                                     <td className="px-6 py-4">
                                         <span className="text-xs bg-slate-100 text-slate-600 px-2 py-1 rounded border border-slate-200">
