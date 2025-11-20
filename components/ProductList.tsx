@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { Plus, Search, Package, Layers, Edit, History, ArrowUpRight, ArrowDownRight, X, Trash2 } from 'lucide-react';
+import { Plus, Search, Package, Layers, ArrowUpRight, ArrowDownRight, X, Trash2 } from 'lucide-react';
 import { Product, Invoice, TransactionType } from '../types';
 
 interface ProductListProps {
